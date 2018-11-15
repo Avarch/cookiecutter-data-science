@@ -28,6 +28,16 @@ $ conda install cookiecutter
 
     cookiecutter https://github.com/DanielYWu/cookiecutter-data-science
 
+```
+project_name [project_name]: DS-111 Test Project
+folder_name [ds-111_test_project]:
+author_name [Your name (or your organization/company/team)]: Daniel Wu
+description [A short description of the project.]: This is a project.
+s3_bucket [[OPTIONAL] your-bucket-for-syncing-data (do not include 's3://')]:
+aws_profile [default]:
+```
+
+
 
 ### The resulting directory structure
 ------------
@@ -76,9 +86,6 @@ The directory structure of your new project looks like this:
  
 ```
 
-## Contributing
-
-We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
 
 ### Installing development requirements
 ------------
